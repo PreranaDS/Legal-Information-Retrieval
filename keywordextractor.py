@@ -95,7 +95,7 @@ except:
 #PATH_TO_GOOGLE_WORD2VEC = api.load("word2vec-google-news-300", return_path=True)
 #print(PATH_TO_GOOGLE_WORD2VEC)
 #wvgoogle=gensim.models.KeyedVectors.load_word2vec_format(path, binary=True)
-#PATH_TO_GOOGLE_WORD2VEC='C:/Users/Toshiba/gensim-data/word2vec-google-news-300/word2vec-google-news-300.gz'
+#PATH_TO_GOOGLE_WORD2VEC=path
 #wvgoogle=gensim.models.KeyedVectors.load_word2vec_format(PATH_TO_GOOGLE_WORD2VEC, binary=True)
 #google word2vec is slowing it down a lot
 print("*********************\nabstract\n",abstract)
