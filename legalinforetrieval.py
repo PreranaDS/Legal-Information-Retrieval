@@ -202,7 +202,7 @@ def retrieve(query):
     #path = api.load("word2vec-google-news-300", return_path=True)
     #print(path)
     #wvgoogle=gensim.models.KeyedVectors.load_word2vec_format(path, binary=True)
-    #wvgoogle=gensim.models.KeyedVectors.load_word2vec_format('C:/Users/Toshiba/gensim-data/word2vec-google-news-300/word2vec-google-news-300.gz', binary=True)
+    #wvgoogle=gensim.models.KeyedVectors.load_word2vec_format(path, binary=True)
     #query_embedding_google = [wvgoogle[w] for w in lemma_list if w in wvgoogle.key_to_index]
     #cosinelist_google=[]
     #if query_embedding_google!=[]:
